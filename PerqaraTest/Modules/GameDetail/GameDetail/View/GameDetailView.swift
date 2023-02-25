@@ -43,6 +43,8 @@ class GameDetailView: UIViewController {
         navigationItem.backBarButtonItem = UIBarButtonItem(title: " ", style: .plain, target: nil, action: nil)
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "heart"), style: .plain, target: self, action: #selector(favoriteTapped))
         
+        navigationItem.rightBarButtonItem?.tintColor = .red
+        
         viewModel.checkFavorite()
         
     }
@@ -102,8 +104,10 @@ class GameDetailView: UIViewController {
             DispatchQueue.main.async {
                 if self?.viewModel.isFavorite == true {
                     self?.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "heart.fill"), style: .plain, target: self, action: #selector(self?.favoriteTapped))
+                    self?.navigationItem.rightBarButtonItem?.tintColor = .red
                 } else {
                     self?.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "heart"), style: .plain, target: self, action: #selector(self?.favoriteTapped))
+                    self?.navigationItem.rightBarButtonItem?.tintColor = .red
                 }
             }
         }
@@ -126,9 +130,11 @@ class GameDetailView: UIViewController {
             if self?.viewModel.isFavorite == true {
                 self?.viewModel.deleteFavorite()
                 self?.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "heart"), style: .plain, target: self, action: #selector(self?.favoriteTapped))
+                self?.navigationItem.rightBarButtonItem?.tintColor = .red
             } else {
                 self?.viewModel.saveFavoriteGame()
                 self?.navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "heart.fill"), style: .plain, target: self, action: #selector(self?.favoriteTapped))
+                self?.navigationItem.rightBarButtonItem?.tintColor = .red
             }
             
         }))

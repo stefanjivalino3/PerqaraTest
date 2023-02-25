@@ -56,6 +56,9 @@
 		0BE1AC7329A637D500E5786A /* GamesListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE1AC6D29A637D500E5786A /* GamesListViewModel.swift */; };
 		0BE1AC7529A6380600E5786A /* Reach.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE1AC7429A6380600E5786A /* Reach.swift */; };
 		0BE1AC7A29A63C9500E5786A /* UIImageView + Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BE1AC7929A63C9500E5786A /* UIImageView + Ext.swift */; };
+		0FAB3D3F307BEA653D5CD965 /* Pods_PerqaraTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3FBFD8B296A661868861BDA /* Pods_PerqaraTest.framework */; };
+		1EAE5787788B8408BD8D1E79 /* Pods_PerqaraTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEBB4A00BF356FF0DEA892B5 /* Pods_PerqaraTestTests.framework */; };
+		84D03C1678303CDAE6BEA1E3 /* Pods_PerqaraTest_PerqaraTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A09FB6ED9D3C31F043568BDA /* Pods_PerqaraTest_PerqaraTestUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -129,6 +132,15 @@
 		0BE1AC6D29A637D500E5786A /* GamesListViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GamesListViewModel.swift; sourceTree = "<group>"; };
 		0BE1AC7429A6380600E5786A /* Reach.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reach.swift; sourceTree = "<group>"; };
 		0BE1AC7929A63C9500E5786A /* UIImageView + Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView + Ext.swift"; sourceTree = "<group>"; };
+		4251A567343C609EB0A328F3 /* Pods-PerqaraTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerqaraTestTests.debug.xcconfig"; path = "Target Support Files/Pods-PerqaraTestTests/Pods-PerqaraTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		76A83CEBFA73E3B808C3C274 /* Pods-PerqaraTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerqaraTestTests.release.xcconfig"; path = "Target Support Files/Pods-PerqaraTestTests/Pods-PerqaraTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		A09FB6ED9D3C31F043568BDA /* Pods_PerqaraTest_PerqaraTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerqaraTest_PerqaraTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3FBFD8B296A661868861BDA /* Pods_PerqaraTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerqaraTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B54996B5FC6F7A67EC1806EC /* Pods-PerqaraTest-PerqaraTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerqaraTest-PerqaraTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-PerqaraTest-PerqaraTestUITests/Pods-PerqaraTest-PerqaraTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC0EB8569743F6BEEE1682ED /* Pods-PerqaraTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerqaraTest.debug.xcconfig"; path = "Target Support Files/Pods-PerqaraTest/Pods-PerqaraTest.debug.xcconfig"; sourceTree = "<group>"; };
+		DEBB4A00BF356FF0DEA892B5 /* Pods_PerqaraTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PerqaraTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5876CECADC1FEC296D38004 /* Pods-PerqaraTest-PerqaraTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerqaraTest-PerqaraTestUITests.release.xcconfig"; path = "Target Support Files/Pods-PerqaraTest-PerqaraTestUITests/Pods-PerqaraTest-PerqaraTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F599943014D30D5832B927A0 /* Pods-PerqaraTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PerqaraTest.release.xcconfig"; path = "Target Support Files/Pods-PerqaraTest/Pods-PerqaraTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FAB3D3F307BEA653D5CD965 /* Pods_PerqaraTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -143,6 +156,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1EAE5787788B8408BD8D1E79 /* Pods_PerqaraTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D03C1678303CDAE6BEA1E3 /* Pods_PerqaraTest_PerqaraTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +376,7 @@
 				0B9B9E5529A62AF400409B76 /* PerqaraTestTests */,
 				0B9B9E3A29A62AF300409B76 /* Products */,
 				DC34D456E1985579D7DA48FD /* Pods */,
+				166C3E9CEBE53400CC97244F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -490,9 +506,25 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
+		166C3E9CEBE53400CC97244F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3FBFD8B296A661868861BDA /* Pods_PerqaraTest.framework */,
+				A09FB6ED9D3C31F043568BDA /* Pods_PerqaraTest_PerqaraTestUITests.framework */,
+				DEBB4A00BF356FF0DEA892B5 /* Pods_PerqaraTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		DC34D456E1985579D7DA48FD /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				CC0EB8569743F6BEEE1682ED /* Pods-PerqaraTest.debug.xcconfig */,
+				F599943014D30D5832B927A0 /* Pods-PerqaraTest.release.xcconfig */,
+				B54996B5FC6F7A67EC1806EC /* Pods-PerqaraTest-PerqaraTestUITests.debug.xcconfig */,
+				E5876CECADC1FEC296D38004 /* Pods-PerqaraTest-PerqaraTestUITests.release.xcconfig */,
+				4251A567343C609EB0A328F3 /* Pods-PerqaraTestTests.debug.xcconfig */,
+				76A83CEBFA73E3B808C3C274 /* Pods-PerqaraTestTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -504,9 +536,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B9B9E6629A62AF400409B76 /* Build configuration list for PBXNativeTarget "PerqaraTest" */;
 			buildPhases = (
+				C8D950630392C41FC50611E2 /* [CP] Check Pods Manifest.lock */,
 				0B9B9E3529A62AF300409B76 /* Sources */,
 				0B9B9E3629A62AF300409B76 /* Frameworks */,
 				0B9B9E3729A62AF300409B76 /* Resources */,
+				6B730B898A14DCEC5EEF1C40 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -521,6 +555,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B9B9E6929A62AF400409B76 /* Build configuration list for PBXNativeTarget "PerqaraTestTests" */;
 			buildPhases = (
+				5EAD936D7DAF481C8B96A42F /* [CP] Check Pods Manifest.lock */,
 				0B9B9E4E29A62AF400409B76 /* Sources */,
 				0B9B9E4F29A62AF400409B76 /* Frameworks */,
 				0B9B9E5029A62AF400409B76 /* Resources */,
@@ -539,9 +574,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0B9B9E6C29A62AF400409B76 /* Build configuration list for PBXNativeTarget "PerqaraTestUITests" */;
 			buildPhases = (
+				36621C1878DC58551A8CC74F /* [CP] Check Pods Manifest.lock */,
 				0B9B9E5829A62AF400409B76 /* Sources */,
 				0B9B9E5929A62AF400409B76 /* Frameworks */,
 				0B9B9E5A29A62AF400409B76 /* Resources */,
+				285B0BE9F4AF44AF2B8A2494 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -629,6 +666,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		285B0BE9F4AF44AF2B8A2494 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PerqaraTest-PerqaraTestUITests/Pods-PerqaraTest-PerqaraTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PerqaraTest-PerqaraTestUITests/Pods-PerqaraTest-PerqaraTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PerqaraTest-PerqaraTestUITests/Pods-PerqaraTest-PerqaraTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36621C1878DC58551A8CC74F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PerqaraTest-PerqaraTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5EAD936D7DAF481C8B96A42F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PerqaraTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B730B898A14DCEC5EEF1C40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PerqaraTest/Pods-PerqaraTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PerqaraTest/Pods-PerqaraTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PerqaraTest/Pods-PerqaraTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C8D950630392C41FC50611E2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PerqaraTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0B9B9E3529A62AF300409B76 /* Sources */ = {
@@ -842,6 +982,7 @@
 		};
 		0B9B9E6729A62AF400409B76 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC0EB8569743F6BEEE1682ED /* Pods-PerqaraTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -872,6 +1013,7 @@
 		};
 		0B9B9E6829A62AF400409B76 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F599943014D30D5832B927A0 /* Pods-PerqaraTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -902,6 +1044,7 @@
 		};
 		0B9B9E6A29A62AF400409B76 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4251A567343C609EB0A328F3 /* Pods-PerqaraTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -922,6 +1065,7 @@
 		};
 		0B9B9E6B29A62AF400409B76 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76A83CEBFA73E3B808C3C274 /* Pods-PerqaraTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -942,6 +1086,7 @@
 		};
 		0B9B9E6D29A62AF400409B76 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B54996B5FC6F7A67EC1806EC /* Pods-PerqaraTest-PerqaraTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -960,6 +1105,7 @@
 		};
 		0B9B9E6E29A62AF400409B76 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5876CECADC1FEC296D38004 /* Pods-PerqaraTest-PerqaraTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

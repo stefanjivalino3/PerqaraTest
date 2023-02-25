@@ -16,11 +16,11 @@ extension GamesFavorite {
         return NSFetchRequest<GamesFavorite>(entityName: "GamesFavorite")
     }
 
-    @NSManaged public var gameId: Int16
+    @NSManaged public var gameId: Int64
     @NSManaged public var name: String?
     @NSManaged public var released: String?
     @NSManaged public var rating: Double
-    @NSManaged public var playtime: Int16
+    @NSManaged public var playtime: Int64
     @NSManaged public var desc: String?
     @NSManaged public var background_image: String?
     @NSManaged public var developers: String?

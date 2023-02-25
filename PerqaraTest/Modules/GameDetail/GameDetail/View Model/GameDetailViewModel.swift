@@ -111,11 +111,11 @@ class GameDetailViewModel {
         }
         
         let newItem = GamesFavorite(context: self.context)
-        newItem.gameId = Int16(self.gameId)
+        newItem.gameId = Int64(self.gameId)
         newItem.name = self.gameDetailData.name
         newItem.released = self.gameDetailData.released
         newItem.rating = self.gameDetailData.rating ?? 0
-        newItem.playtime = Int16(self.gameDetailData.playtime ?? 0)
+        newItem.playtime = Int64(self.gameDetailData.playtime ?? 0)
         newItem.desc = self.gameDetailData.description
         newItem.background_image = self.gameDetailData.background_image
         newItem.developers = devString
