@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="EmptyViewCell" customModule="PerqaraTest" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="300"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ljr-yr-CRz">
+                        <rect key="frame" x="36" y="150" width="248" height="15.666666666666657"/>
+                        <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="13"/>
+                        <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xmark.app" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="cnQ-El-SLT">
+                        <rect key="frame" x="20" y="51.666666666666657" width="280" height="77"/>
+                        <color key="tintColor" red="1" green="0.76673043610000002" blue="0.1273645675" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="80" id="Foj-Dc-G4q"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="ljr-yr-CRz" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="20" id="GLj-Lv-Cyd"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="ljr-yr-CRz" secondAttribute="trailing" constant="20" id="LAi-bV-0wf"/>
+                    <constraint firstItem="ljr-yr-CRz" firstAttribute="top" secondItem="cnQ-El-SLT" secondAttribute="bottom" constant="20" id="LNw-0u-y3i"/>
+                    <constraint firstItem="cnQ-El-SLT" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="icW-T9-Cb7"/>
+                    <constraint firstItem="cnQ-El-SLT" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="50" id="teM-zB-rYo"/>
+                    <constraint firstAttribute="trailing" secondItem="cnQ-El-SLT" secondAttribute="trailing" constant="20" id="v9e-qA-SqI"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="descriptionLabel" destination="ljr-yr-CRz" id="3Ft-3C-wth"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="20"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="xmark.app" catalog="system" width="128" height="114"/>
+    </resources>
+</document>
